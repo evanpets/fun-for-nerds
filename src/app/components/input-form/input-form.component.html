@@ -1,4 +1,4 @@
 <div class="d-flex gap-2">
-    <input type="text" class="rounded-2 form-control" (input)="onInput($event)">
+    <input type="text" [(ngModel)]="currentWord" class="rounded-2 form-control" (input)="onInput($event)">
     <button class="btn bg-primary text-white" (click)="onSubmit()">Submit</button>
 </div>

@@ -14,7 +14,7 @@ export class AppComponent {
   title = 'fun-for-nerds';
   partialOddWord: string = '';
   partialEvenWord: string = '';
-  // submittedWord: string = ''
+  submittedWord: string = ''
 
   oddLengthWords: string[] = [];
   evenLengthWords: string[] = [];
